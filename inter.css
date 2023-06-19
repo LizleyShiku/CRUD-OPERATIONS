@@ -1,0 +1,66 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: sans-serif;
+    margin: 10px;
+}
+table{
+    width:80%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+       
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid rgb(154, 181, 204);
+    text-align: left;
+    padding: 8px 15px;
+}
+tr{
+    background-color: teal;
+}
+input[type="Text"]{
+    width: 91%;
+    margin: 8px o;
+    display: inline-block;
+    border: 1px solid rgb(187, 145, 189);
+    border-radius: 4px;
+
+}
+input[type="submit"],input[type="reset"]{
+    background-color: teal;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+input[type="submit"]:hover{
+    background-color: turquoise;
+}
+input[type="reset"]:hover{
+    background-color: turquoise;
+}
+button{
+    background-color: teal;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none; 
+}
+button:hover{
+    background:turquoise;
+}
